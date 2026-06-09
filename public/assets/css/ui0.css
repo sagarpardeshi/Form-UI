@@ -1,0 +1,115 @@
+/* =========================================================
+   PRIMARY COLOR SYSTEM
+   CHANGE ONLY THESE
+========================================================= */
+
+:root,
+[data-bs-theme="light"] {
+
+  --brand-primary: #f6443b;
+  --brand-primary-rgb: 59,130,246;
+
+  /* =========================================================
+     TABLER PRIMARY TOKENS
+  ========================================================= */
+
+  --tblr-primary: var(--brand-primary);
+  --tblr-primary-rgb: var(--brand-primary-rgb);
+
+  --tblr-primary-text-emphasis:
+      color-mix(in srgb, var(--brand-primary) 72%, black);
+
+  --tblr-primary-bg-subtle:
+      color-mix(in srgb, var(--brand-primary) 10%, white);
+
+  --tblr-primary-border-subtle:
+      color-mix(in srgb, var(--brand-primary) 22%, white);
+
+  /* =========================================================
+     OPTIONAL PRIMARY SHADES
+  ========================================================= */
+
+  --tblr-primary-50:
+      color-mix(in srgb, var(--brand-primary) 5%, white);
+
+  --tblr-primary-100:
+      color-mix(in srgb, var(--brand-primary) 10%, white);
+
+  --tblr-primary-200:
+      color-mix(in srgb, var(--brand-primary) 20%, white);
+
+  --tblr-primary-300:
+      color-mix(in srgb, var(--brand-primary) 35%, white);
+
+  --tblr-primary-400:
+      color-mix(in srgb, var(--brand-primary) 50%, white);
+
+  --tblr-primary-500:
+      var(--brand-primary);
+
+  --tblr-primary-600:
+      color-mix(in srgb, var(--brand-primary) 85%, black);
+
+  --tblr-primary-700:
+      color-mix(in srgb, var(--brand-primary) 72%, black);
+
+  --tblr-primary-800:
+      color-mix(in srgb, var(--brand-primary) 58%, black);
+
+  --tblr-primary-900:
+      color-mix(in srgb, var(--brand-primary) 42%, black);
+}
+
+
+/* =========================================================
+   DARK THEME PRIMARY TOKENS
+========================================================= */
+
+[data-bs-theme="dark"] {
+
+  --tblr-primary: var(--brand-primary);
+  --tblr-primary-rgb: var(--brand-primary-rgb);
+
+  --tblr-primary-text-emphasis:
+      color-mix(in srgb, var(--brand-primary) 82%, white);
+
+  --tblr-primary-bg-subtle:
+      rgba(var(--brand-primary-rgb), .12);
+
+  --tblr-primary-border-subtle:
+      rgba(var(--brand-primary-rgb), .28);
+
+  /* =========================================================
+     DARK PRIMARY SHADES
+  ========================================================= */
+
+  --tblr-primary-50:
+      rgba(var(--brand-primary-rgb), .05);
+
+  --tblr-primary-100:
+      rgba(var(--brand-primary-rgb), .10);
+
+  --tblr-primary-200:
+      rgba(var(--brand-primary-rgb), .16);
+
+  --tblr-primary-300:
+      rgba(var(--brand-primary-rgb), .24);
+
+  --tblr-primary-400:
+      rgba(var(--brand-primary-rgb), .38);
+
+  --tblr-primary-500:
+      var(--brand-primary);
+
+  --tblr-primary-600:
+      color-mix(in srgb, var(--brand-primary) 88%, white);
+
+  --tblr-primary-700:
+      color-mix(in srgb, var(--brand-primary) 78%, white);
+
+  --tblr-primary-800:
+      color-mix(in srgb, var(--brand-primary) 66%, white);
+
+  --tblr-primary-900:
+      color-mix(in srgb, var(--brand-primary) 54%, white);
+}

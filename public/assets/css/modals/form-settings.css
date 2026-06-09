@@ -1,0 +1,28 @@
+.form-settings-modal .form-slide {
+    display: none;
+}
+
+.form-settings-modal .form-slide[x-cloak] {
+    display: none !important;
+}
+
+.form-settings-modal .form-control {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fade-slide-enter {
+    animation: fadeSlide .25s ease;
+}
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
